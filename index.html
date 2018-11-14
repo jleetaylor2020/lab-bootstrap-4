@@ -13,37 +13,186 @@
 
 <body>
     <div class="container">
-        <div class="row justify-content-start"></div>
-        <div class="col-3">
-            column 1 start
+        <div class="row"></div>
+        <div class="col bg-primary ">
+            <h1 class='text-align-center'>First Bootstrap Project</h1>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-3">
-                First Bootstrap Project
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-3">
-                    column 2 center
+        <div class="container">
+            <div class="row">
+                <div class="col-sm bg-danger">
+                    1 of 3
                 </div>
-                <div class="row justify-content-end">
-                    <div class="col-3">
-                        column 3 end
+                <div class="col-sm bg-primary">
+                    2 of 3
+                </div>
+                <div class="col-sm bg-danger">
+                    3 of 4
+                </div>
+            </div>
+            <hr>
+            <br>
+            <form>
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
                     </div>
                 </div>
+                <div class="form-group row">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                    </div>
+                </div>
+                <fieldset class="form-group">
+                    <div class="row">
+                        <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                        <div class="col-sm-10">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                                    checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                    Cheese Pizza
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                    Vegetable Pizza
+                                </label>
+                            </div>
+                            <div class="form-check disabled">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3"
+                                    disabled>
+                                <label class="form-check-label" for="gridRadios3">
+                                    Meat Pizza
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="form-group row">
+                    <div class="col-sm-2">Checkbox</div>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                                Cats
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck2">
+                            <label class="form-check-label" for="gridCheck2">
+                                Dogs
+                            </label>
+                        </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+            </form>
+        </div>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtudE8Rg-J48bTeReuUoMXk-e_tWvpEibrnayWO1gbckcXjefHww"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">Elizabeth</h3>
+                    <p class="card-text">My friend Elizabeth is a caring friend with a big heart. Her traits include:</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Trustworthy</li>
+                    <li class="list-group-item">Compassionate</li>
+                    <li class="list-group-item">Intelligent</li>
+                </ul>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVnkkz8p-pioOUqK2Ym1BRX9ITBcxS3o-lTjv72kulTT5e2-qyWA"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">Adrian</h3>
+                    <p class="card-text">My friend Adrian is confident and strong. Her traits include:</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Effective</li>
+                    <li class="list-group-item">Generous</li>
+                    <li class="list-group-item">Principled</li>
+                </ul>
+            </div>
+            <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="https://image.shutterstock.com/image-photo/superhero-scotch-whiskey-blue-cloak-260nw-1202346829.jpg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h3 class="card-title">Jon</h3>
+                    <p class="card-text">My friend Jon is an honest and motivational friend. His traits include:</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Dependable</li>
+                    <li class="list-group-item">Intelligent and Creative</li>
+                    <li class="list-group-item">Most likely to lead our next revolution!</li>
+                </ul>
+                <!-- ------------------------------------------ -->
+
             </div>
 
+            <div class="container">
+                <div class="row">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/4/44/1ea2c51cd7bd8f444a874200d171d236--russian-blue-cats-gray-cats.jpg/revision/latest?cb=20171218185750"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="card-title">Shalitha</h3>
+                            <p class="card-text">My friend Shalitha is resourceful and trustworthy friend. Her traits
+                                include: </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Authentic</li>
+                            <li class="list-group-item">Classy</li>
+                            <li class="list-group-item">Our little sparkle with princess eyes.</li>
+                        </ul>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="https://i.pinimg.com/originals/e4/45/2c/e4452cc8ef5d6dac58d8b0b0aa290ac8.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="card-title">Graham</h3>
+                            <p class="card-text">Graham is a friend who is thoughtful and reliable.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Humorous</li>
+                            <li class="list-group-item">Intelligent</li>
+                            <li class="list-group-item">Resilient</li>
+                        </ul>
+                    </div>
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="https://img.cutenesscdn.com/640/clsd/getty/f6f9330efe314fc8ae8d5677c778c745.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3 class="card-title">Dakota</h3>
+                            <p class="card-text">Dakota is a kind and caring friend. His traits include:</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Scholastic</li>
+                            <li class="list-group-item">Intentional</li>
+                            <li class="list-group-item">Noble</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- ------------------------------------------ -->
 
 
 
 
 
-
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-                crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-                crossorigin="anonymous"></script>
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                    crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                    crossorigin="anonymous"></script>
 
 </body>
 
