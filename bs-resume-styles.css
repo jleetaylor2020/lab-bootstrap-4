@@ -1,0 +1,17 @@
+.wrapper{
+    width: 840px;
+    margin: 0 auto;
+    align: left;
+}
+
+
+
+  .card {
+        padding-bottom: 3em;
+        margin-bottom: 1em;
+    
+  }
+
+  .card-image-top {
+    height: 100em;
+  }
